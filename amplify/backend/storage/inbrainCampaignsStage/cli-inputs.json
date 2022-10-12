@@ -1,0 +1,10 @@
+{
+  "resourceName": "inbrainCampaignsStage",
+  "tableName": "inbrainCampaignsStage",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

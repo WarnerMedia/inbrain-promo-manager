@@ -1,0 +1,10 @@
+{
+  "resourceName": "inbrainBrands",
+  "tableName": "inbrainBrands",
+  "partitionKey": {
+    "fieldName": "value",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

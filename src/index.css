@@ -1,0 +1,80 @@
+@import '@aws-amplify/ui-react/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: 'ss01', 'ss02', 'case', 'calt';
+  }
+
+  [type='text'],
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full rounded-lg border-gray-300 shadow-sm focus:border-brand focus:ring-brand;
+  }
+  [type='checkbox'],
+  [type='radio'] {
+    @apply rounded border-gray-300 text-brand focus:ring-brand;
+  }
+}
+
+[data-amplify-theme] {
+  --amplify-colors-brand-primary-10: rgb(255 130 140);
+  --amplify-colors-brand-primary-20: rgb(255 130 140);
+  --amplify-colors-brand-primary-40: rgb(255 130 140);
+  --amplify-colors-brand-primary-60: rgb(255 130 140);
+  --amplify-colors-brand-primary-80: rgb(255 130 140);
+  --amplify-colors-brand-primary-90: rgb(255 130 140);
+  --amplify-colors-brand-primary-100: rgb(255 130 140);
+}
+
+[data-amplify-authenticator] {
+  @apply flex h-screen w-screen items-center justify-center bg-gray-200;
+}
+
+[data-amplify-authenticator] [data-amplify-router] {
+  @apply mt-8 rounded-md border-none;
+}
+
+.amplify-tabs {
+  display: none;
+}
+
+.amplify-button[data-variation='primary'] {
+  @apply bg-brand;
+}
+
+.amplify-button[data-variation='primary']:hover {
+  @apply bg-brand opacity-75;
+}
+
+.amplify-field__show-password {
+  @apply border-l-0 border-gray-300;
+}
+
+.amplify-field__show-password {
+  @apply text-brand;
+}
+
+.amplify-field__show-password:hover {
+  @apply bg-brand text-white;
+}
+
+.inbrain-logo {
+  margin-left: 12px;
+  width: 40px;
+}

@@ -1,0 +1,10 @@
+{
+  "resourceName": "inbrainPromosStage",
+  "tableName": "inbrainPromosStage",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

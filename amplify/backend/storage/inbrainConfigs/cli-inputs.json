@@ -1,0 +1,10 @@
+{
+  "resourceName": "inbrainConfigs",
+  "tableName": "inbrainConfigs",
+  "partitionKey": {
+    "fieldName": "page",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/liveNewsfeed": {
+      "name": "/liveNewsfeed",
+      "lambdaFunction": "liveNewsfeedLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

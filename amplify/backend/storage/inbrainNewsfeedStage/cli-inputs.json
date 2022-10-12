@@ -1,0 +1,10 @@
+{
+  "resourceName": "inbrainNewsfeedStage",
+  "tableName": "inbrainNewsfeedStage",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

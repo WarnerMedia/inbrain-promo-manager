@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/brands": {
+      "name": "/brands",
+      "lambdaFunction": "brandsLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

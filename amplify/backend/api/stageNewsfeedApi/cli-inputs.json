@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/stageNewsfeed": {
+      "name": "/stageNewsfeed",
+      "lambdaFunction": "stageNewsfeedLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

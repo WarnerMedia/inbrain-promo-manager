@@ -1,0 +1,78 @@
+{
+  "name": "inbrain-promo-manager",
+  "version": "0.1.0",
+  "description": "A web app for managing Inbrain promotion items",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warnermedia/inbrain-promo-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warnermedia/inbrain-promo-manager/issues"
+  },
+  "homepage": "https://github.com/warnermedia/inbrain-promo-manager",
+  "keywords": [
+    "react",
+    "inbrain",
+    "vite",
+    "tailwindcss",
+    "amplify"
+  ],
+  "engines": {
+    "node": ">=16",
+    "npm": ">= 7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 3000",
+    "lint": "eslint --cache --fix --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx src",
+    "format": "prettier -uw --ignore-path .gitignore .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^3.0.0",
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.5",
+    "aws-amplify": "^4.3.8",
+    "clsx": "^1.1.1",
+    "papaparse": "^5.3.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-dropzone": "^12.0.1",
+    "react-hook-form": "^7.24.1",
+    "react-hot-toast": "^2.1.1",
+    "react-query": "^3.34.0",
+    "react-router-dom": "^6.0.2",
+    "react-table": "^7.7.0",
+    "react-table-plugins": "^1.3.2",
+    "uuid": "^9.0.0",
+    "xlsx": "^0.18.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@vitejs/plugin-react": "^1.2.0",
+    "autoprefixer": "^10.4.2",
+    "csvtojson": "^2.0.10",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.0",
+    "prettier-plugin-tailwindcss": "^0.1.7",
+    "tailwindcss": "^3.0.19",
+    "vite": "2.6.4"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}

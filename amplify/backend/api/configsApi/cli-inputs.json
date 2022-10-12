@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/configs": {
+      "name": "/configs",
+      "lambdaFunction": "configsLambda",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
